@@ -14,6 +14,7 @@ div.menu-section
     margin-left: 975px;
     height: 75px;
     border: 1px solid black;
+   
 
 }
 ul.menu
@@ -99,4 +100,9 @@ blockquote
     }
 }
 
+@media (min-width: 500px){
+    #menu{
+        width: 100%;
+    }
+}
 
