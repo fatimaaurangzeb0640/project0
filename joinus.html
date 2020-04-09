@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="style2.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body{
+                background-color: black;
+
+            }
+        </style>
+
+    </head>
+    <body>
+     
+        <form>
+            <fieldset>
+                <legend>Wanna be a part of us?</legend>
+            <div class="row">
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                <input type="email" class="form-control" placeholder="E-mail">
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-8">
+                <input type="number" class="form-control" placeholder="Phone no.">
+                </div>
+            </div>
+         
+
+
+          <div class=col-8> 
+
+           <select class="custom-select my-1 mr-sm-2" id="favchar">  
+            <option selected class="black">Favourite Money Heist Character</option>          
+            <option class="black"> Tokyo </option>
+            <option class="black"> Berlin </option>
+            <option class="black"> The Professor </option>
+            <option class="black"> Denver </option>
+            <option class="black"> Stockholm </option>
+            <option class="black"> Palermo </option>
+            <option class="black"> Helsinki </option>
+        
+         </select>
+        </div>
+    <div class="gender">
+        Gender
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="female" id="female" value="female">
+            <label class="form-check-label" for="female"> Female</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="male" id="male" value="male">
+            <label class="form-check-label" for="male"> Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="other" id="other" value="other">
+            <label class="form-check-label" for="other"> Other</label>
+          </div>
+    </div>  
+    
+    <div class="button">
+    <button type="button" class="btn btn-light" id="submit">Submit</button>
+    </div>
+</fieldset>
+</form>
+
+      <p> 
+      After submitting your information you'll be sent an email 
+      or you can check it on our website how likely you are to
+      get in according to your remarks.
+     </p>
+     <table>
+         <tr >
+          <th > Remarks </th>
+          <th > Percentage </th>
+         </tr>
+         <tr class="rowdesign">
+             <td class="green">Very much</td>
+             <td class="green"> 80% </td>
+         </tr>
+         <tr class="rowdesign">
+            <td class="yellow">Pretty much</td>
+            <td class="yellow"> 70% </td>
+        </tr>
+        <tr class="rowdesign">
+            <td class="orange">Maybe</td>
+            <td class="orange"> 60% - 50% </td>
+        </tr>
+        <tr class="rowdesign">
+            <td class="red">Not likely</td>
+            <td class="red"> 10% - 40% </td>
+        </tr>
+
+     </table>
+    </body>

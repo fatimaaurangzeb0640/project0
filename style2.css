@@ -1,0 +1,91 @@
+* {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.black {
+  color: black;
+}
+
+table {
+  margin-left: 30px;
+}
+table th {
+  text-align: center;
+}
+table th, table td {
+  border: 1px solid white;
+  padding: 10px;
+  width: 300px;
+  height: 60px;
+}
+
+#favchar {
+  margin-left: -13px;
+}
+
+form {
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 1000px;
+  padding-bottom: 10px;
+}
+form fieldset legend {
+  padding: 5px;
+  font-family: "Lucida Handwriting";
+  font-weight: bold;
+  font-size: 40px;
+  color: #99ff33;
+}
+form fieldset button {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+form fieldset .gender {
+  margin-left: 20px;
+}
+form fieldset .form-check-label {
+  margin-right: 15px;
+}
+
+p {
+  font-family: "Lucida Handwriting";
+  font-size: 20px;
+  width: 1000px;
+  color: #99ff33;
+}
+
+.rowdesign, .red, .orange, .yellow, .green {
+  text-align: center;
+  color: black;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+@media (min-width: 500px) {
+  form {
+    width: 85%;
+  }
+}
+@media (min-width: 500px) {
+  p {
+    width: 85%;
+  }
+}
+
+/*# sourceMappingURL=style2.css.map */

@@ -1,0 +1,118 @@
+
+$color:  #99ff33;
+$color2: white;
+$borderstyle: solid;
+$fontfamily: "Lucida Handwriting";
+
+*
+{
+    color: $color2;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+.black
+{
+    color: black;
+}
+table
+{
+
+    
+     margin-left: 30px;
+     th{
+         text-align: center;
+     }
+    th, td {
+             border: 1px $borderstyle $color2;
+             padding: 10px;   
+             width: 300px;         
+             height: 60px;
+    }
+}
+
+
+
+
+#favchar
+{
+    margin-left: -13px;
+}
+
+form{
+       border: 3px $borderstyle $color2;
+       border-radius: 5px;
+       width: 1000px;
+       padding-bottom: 10px;
+     
+       
+fieldset
+{
+    legend
+{
+    padding: 5px;
+    font-family: $fontfamily ;
+    font-weight: bold;
+    font-size: 40px;
+    color: $color;
+}
+button{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.gender {
+    margin-left: 20px;
+    
+    
+}
+.form-check-label
+{
+    margin-right: 15px ;
+}
+}
+}
+
+p{
+    font-family: $fontfamily;
+    font-size: 20px;
+    width: 1000px;
+    color: $color;
+}
+
+.rowdesign
+{
+    text-align: center;
+    color: black;
+}
+
+.green
+{
+    @extend .rowdesign;
+    background-color: green;
+}
+.yellow{
+    @extend .rowdesign;
+    background-color: yellow;
+}
+.orange
+{
+    @extend .rowdesign;
+    background-color: orange;
+}
+.red{
+    @extend .rowdesign;
+    background-color:red;
+}
+
+@media (min-width: 500px){
+    form{
+        width: 85%;
+    }
+}
+
+@media (min-width: 500px){
+    p{
+        width: 85%;
+    }
+}
+
